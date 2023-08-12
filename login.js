@@ -9,14 +9,16 @@ import {
 
 (function () {
   // Your web app's Firebase configuration, get it from your firebase project settings page on the General tab.
- const firebaseConfig = {
+
+const firebaseConfig = {
   apiKey: "AIzaSyB8zCJhQtrQqG8vQ2zGfm3uk-1AYv82Vcs",
   authDomain: "aasmah-firebase.firebaseapp.com",
+  databaseURL: "https://aasmah-firebase-default-rtdb.firebaseio.com",
   projectId: "aasmah-firebase",
   storageBucket: "aasmah-firebase.appspot.com",
   messagingSenderId: "448848547000",
-  appId: "1:448848547000:web:075e9bbf09882cc12e784d",
-  measurementId: "G-VTZL3ZF17V"
+  appId: "1:448848547000:web:6a3b52388ed5eec42e784d",
+  measurementId: "G-LPSNJSRRVW"
 };
   // Initialize Firebase
   // firebase.initializeApp(firebaseConfig);
