@@ -139,4 +139,4 @@ const firebaseConfig = {
       password.style.display = "inline";
       logout.style.display = "none";
     }
-  });
+   })();
