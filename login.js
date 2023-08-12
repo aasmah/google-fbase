@@ -38,7 +38,7 @@ const firebaseConfig = {
   const signup = document.getElementById("signup");
   const logout = document.getElementById("logout");
   const loggedInStatus = document.getElementById("loggedInStatus");
-  const googlelogin = document.getElementById("googlelogin");
+  const googlelogin = document.getElementById("Google login");
 
   // login
   login.addEventListener("click", (e) => {
