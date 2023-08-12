@@ -83,34 +83,34 @@ const firebaseConfig = {
       });
   });
 
-  // logout
-  logout.addEventListener("click", (e) => {
-    auth.signOut();
-  });
+//   // logout
+//   logout.addEventListener("click", (e) => {
+//     auth.signOut();
+//   });
 
-  // login state
-  auth.onAuthStateChanged((firebaseUser) => {
-    if (firebaseUser) {
-      console.log(firebaseUser);
-      loggedInStatus.innerText = `You are logged in using the following email: ${firebaseUser.email}`;
-      logout.style.display = "inline";
-      login.style.display = "none";
-      signup.style.display = "none";
-      email.style.display = "none";
-      password.style.display = "none";
-      googlelogin.style.display = "none";
-    } else {
-      console.log("User is not logged in");
-      loggedInStatus.innerText = "You are not yet logged in";
-      login.style.display = "inline";
-      signup.style.display = "inline";
-      email.style.display = "inline";
-      googlelogin.style.display = "inline";
-      password.style.display = "inline";
-      logout.style.display = "none";
-    }
-  });
-})();
+//   // login state
+//   auth.onAuthStateChanged((firebaseUser) => {
+//     if (firebaseUser) {
+//       console.log(firebaseUser);
+//       loggedInStatus.innerText = `You are logged in using the following email: ${firebaseUser.email}`;
+//       logout.style.display = "inline";
+//       login.style.display = "none";
+//       signup.style.display = "none";
+//       email.style.display = "none";
+//       password.style.display = "none";
+//       googlelogin.style.display = "none";
+//     } else {
+//       console.log("User is not logged in");
+//       loggedInStatus.innerText = "You are not yet logged in";
+//       login.style.display = "inline";
+//       signup.style.display = "inline";
+//       email.style.display = "inline";
+//       googlelogin.style.display = "inline";
+//       password.style.display = "inline";
+//       logout.style.display = "none";
+//     }
+//   });
+// })();
 
 
   // logout
